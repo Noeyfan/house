@@ -1,12 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
-import House from './House';
+import HouseChart from './HouseChart';
 
 function App() {
   return (
     <Container>
-      <House />
+      <HouseChart />
     </Container>
   );
 }

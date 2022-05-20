@@ -9,7 +9,7 @@ for (const key of ctx.keys()) {
   images.push(<Row><Image src={ctx(key)} fluid={true}/></Row>)
 }
 
-class House extends React.Component {
+class HouseImg extends React.Component {
   render() {
     return (
       <Col>
@@ -31,4 +31,4 @@ class House extends React.Component {
   }
 }
 
-export default House;
+export default HouseImg;
