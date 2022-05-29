@@ -32,6 +32,7 @@ class HouseChart extends React.Component {
               {
                 name: '$/Square Feet (Adjusted)',
                 data: regionChart.series[0],
+                showSymbol: false,
                 smooth: true,
                 type: 'line'
                 },
@@ -40,7 +41,10 @@ class HouseChart extends React.Component {
                 data: regionChart.series[1],
                 type: 'bar'
                 }
-              ]
+              ],
+              dataZoom: [{
+                show: true,
+              }]
             }} />
           </Card.Body>
         </Card>
