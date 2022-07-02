@@ -7,10 +7,11 @@ import charts from './charts.json'
 class HouseChart extends React.Component {
   build() {
     const echarts = [];
+    let i = 0;
     for (const region in charts) {
       const regionChart = (charts as any)[region];
       echarts.push(
-        <div>
+        <div key={i++}>
         <Card>
           <Card.Header>
           <Card.Title>{region[0].toUpperCase() + region.slice(1)} (2.5M-, 3B+) </Card.Title>
