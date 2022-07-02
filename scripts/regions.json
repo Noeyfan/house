@@ -1,10 +1,12 @@
 [
-  {"name": "bellevue",    "code": "1387",         "type": "6"},
-  {"name": "kirkland",    "code": "9148",         "type": "6"},
-  {"name": "lynnwood",    "code": "10421,271601", "type": "6,1"},
-  {"name": "issaquah",    "code": "8645",         "type": "6"},
-  {"name": "redmond",     "code": "14913",        "type": "6"},
-  {"name": "bothell",     "code": "29439",        "type": "6"},
-  {"name": "woodinville", "code": "20001",        "type": "6"},
-  {"name": "sammamish",   "code": "15735",        "type": "6"}
+  {"name": "bellevue",       "code": "1387",         "type": "6"},
+  {"name": "kirkland",       "code": "9148",         "type": "6"},
+  {"name": "lynnwood",       "code": "10421,271601", "type": "6,1"},
+  {"name": "issaquah",       "code": "8645",         "type": "6"},
+  {"name": "redmond",        "code": "14913",        "type": "6"},
+  {"name": "bothell",        "code": "29439",        "type": "6"},
+  {"name": "woodinville",    "code": "20001",        "type": "6"},
+  {"name": "sammamish",      "code": "15735",        "type": "6"},
+  {"name": "newcastle",      "code": "12446",        "type": "6"},
+  {"name": "mercerisland",   "code": "11460",        "type": "6"}
 ]
