@@ -19,5 +19,5 @@ for filename in os.listdir(inputdir):
             'series': [list(v[:,0]),list(v[:,1])]
         };
 
-with open('../charts.json', 'w') as fp:
+with open('../src/charts.json', 'w') as fp:
     json.dump(result, fp)
