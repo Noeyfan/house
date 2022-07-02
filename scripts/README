@@ -1,0 +1,2 @@
+1. run fetcher.py in print only mode and by pass auth check
+2. run `sh run_chart.sh`
