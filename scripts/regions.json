@@ -1,7 +1,7 @@
 [
   {"name": "bellevue",       "code": "1387",         "type": "6"},
   {"name": "kirkland",       "code": "9148",         "type": "6"},
-  {"name": "lynnwood",       "code": "10421,271601", "type": "6,1"},
+  {"name": "lynnwood",       "code": "10421,31261", "type": "6,6"},
   {"name": "issaquah",       "code": "8645",         "type": "6"},
   {"name": "redmond",        "code": "14913",        "type": "6"},
   {"name": "bothell",        "code": "29439",        "type": "6"},
