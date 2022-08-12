@@ -8,5 +8,6 @@
   {"name": "woodinville",    "code": "20001",        "type": "6"},
   {"name": "sammamish",      "code": "15735",        "type": "6"},
   {"name": "newcastle",      "code": "12446",        "type": "6"},
-  {"name": "mercerisland",   "code": "11460",        "type": "6"}
+  {"name": "mercerisland",   "code": "11460",        "type": "6"},
+  {"name": "renton",         "code": "14975",        "type": "6"}
 ]
