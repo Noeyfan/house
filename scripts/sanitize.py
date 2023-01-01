@@ -1,6 +1,7 @@
 import os
 import csv
 from datetime import date
+from dateutil import parser
 
 inputdir = './data';
 outpudir = './output';
@@ -25,6 +26,9 @@ for filename in os.listdir(inputdir):
                     addr = addr.replace(',', '').replace('#', '');
                     sdparts = sd.split('-');
                     sm = '-'.join([sdparts[0], sdparts[2]]);
+
+                    # update sold date format
+                    sd = parser.parse(sd).strftime('%Y-%m-%d');
 
                     zip = row['ZIP OR POSTAL CODE'];
                     yb = int(float(yb));
