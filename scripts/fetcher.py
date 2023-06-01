@@ -15,14 +15,14 @@ with open('./regions.json') as rf:
         regionUrl = url.format(price=price, beds=beds, region=region['code'], type=region['type']);
         output ='./data/{region}.csv'.format(region=region['name']);
         openCmd = 'open \'{url}\''.format(url=regionUrl);
-        downloadCmd = 'curl \'{url}\' > {output}'.format(url=regionUrl, output=output);
+        downloadCmd = 'curl \'{url}\' --compressed > {output}'.format(url=regionUrl, output=output);
 
         # Show the url
         print(regionUrl)
 
         # delegate to shell to bypass recaptcha check
         # time.sleep(1)
-        os.system(openCmd)
-        time.sleep(30)
+        # os.system(openCmd)
+        # time.sleep(30)
         os.system(downloadCmd)
 
